@@ -1,0 +1,129 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container h3{
+    margin-bottom: 15px;
+}
+.container-fluid {
+    background-image: url(./img/pexels-roman-odintsov-4553618.jpg);
+    background-color: beige;
+    background-position-y: 76%;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 97vh;
+}
+
+/*--------Valoration Block----------*/
+
+.valoration{
+    
+    margin-left: -27px;
+    margin-bottom:-16px ;
+}
+
+.valoration .active{
+    display: inline-block;
+}
+
+.valoration .btn {
+    
+    transition: ease-in .3s;
+    -webkit-transition: ease-in .3s;
+    -moz-transition: ease-in .3s;
+    -ms-transition: ease-in .3s;
+    -o-transition: ease-in .3s;
+}
+
+.valoration .btn:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+#white-box {
+    margin-top: 28vh
+}
+
+/*-----------Weather container styles---------------*/
+
+#weather-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+
+}
+
+#caja1,#caja2,#caja3{
+    margin-bottom: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:150px;
+    height:100px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    -webkit-box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.76); 
+box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.76);
+}
+
+#caja1{
+    background-color: rgba(66, 121, 98, 0.767);
+    color: azure;
+    
+}
+
+#caja2{
+    background-color: rgba(38, 64, 94, 0.767);
+    color: azure;
+}
+
+
+
+#caja3{
+    background-color: rgba(129, 81, 81, 0.767);
+    color: azure;
+
+}
+
+#ubicacion{
+    z-index: 100;
+    position: absolute;
+    top: 34px;
+    font-size: 18px;
+}
+
+h2#temperatura-valor{
+    font-size:18px
+}
+h2#temperatura-descripcion{
+    font-size:18px
+}
+h2#viento-velocidad{
+    font-size:18px;
+}
+
+#caja3 #h2{
+    font-size:18px;
+}
+
+ul{
+    display: flex;
+    
+}
+
+li{
+    list-style: none
+}
+
